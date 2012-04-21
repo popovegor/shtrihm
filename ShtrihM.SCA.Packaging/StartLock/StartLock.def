@@ -1,0 +1,10 @@
+LIBRARY	"StartLock"
+
+EXPORTS
+    ; Explicit exports can go here
+	UnlockStartMenu
+	LockStartMenu
+	UnlockStartBar
+	LockStartBar
+	Lockdown
+	Unlockdown

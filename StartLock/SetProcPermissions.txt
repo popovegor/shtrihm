@@ -1,0 +1,15 @@
+Von:	Bavaro, Bryan
+Gesendet:	Freitag, 22. Juli 2005 22:27
+An:	Gode, Heinz-Josef
+Betreff:	SetProcPermissions
+Josef this documented API is supposed to give a process access to the address space of another process.
+
+	//Make me Master of the Universe
+	SetProcPermissions(0xffffffff);
+
+This maybe what you need to use SetWindowLong to hook the window procedure of another process.
+
+Best regards,
+
+Bryan
+

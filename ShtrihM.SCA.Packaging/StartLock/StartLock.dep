@@ -1,0 +1,54 @@
+# eMbedded Visual C++ Dependency File, included by StartLock.vcn
+
+!IF  "$(CFG)" == "StartLock - Win32 (WCE ARMV4I) Release"
+
+.\StartLock.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "StartLock - Win32 (WCE ARMV4I) Debug"
+
+.\StartLock.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "StartLock - Win32 (WCE ARMV4) Release"
+
+.\StartLock.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "StartLock - Win32 (WCE ARMV4) Debug"
+
+.\StartLock.cpp : \
+	".\StdAfx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "StartLock - Win32 (WCE ARMV4I) Release"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "StartLock - Win32 (WCE ARMV4I) Debug"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "StartLock - Win32 (WCE ARMV4) Release"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "StartLock - Win32 (WCE ARMV4) Debug"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ENDIF 
+

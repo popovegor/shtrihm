@@ -1,0 +1,134 @@
+# eMbedded Visual C++ Dependency File, included by TestStartLock.vcn
+
+!IF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4I) Release"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4I) Debug"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4) Release"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4) Debug"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4I) Release"
+
+.\TestStartLock.cpp : \
+	".\StdAfx.h"\
+	".\TestStartLock.h"\
+	".\TestStartLockDlg.h"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4I) Debug"
+
+.\TestStartLock.cpp : \
+	".\StdAfx.h"\
+	".\TestStartLock.h"\
+	".\TestStartLockDlg.h"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4) Release"
+
+.\TestStartLock.cpp : \
+	".\StdAfx.h"\
+	".\TestStartLock.h"\
+	".\TestStartLockDlg.h"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4) Debug"
+
+.\TestStartLock.cpp : \
+	".\StdAfx.h"\
+	".\TestStartLock.h"\
+	".\TestStartLockDlg.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4I) Release"
+
+.\TestStartLock.rc : \
+	".\newres.h"\
+	".\res\TestStartLock.ico"\
+	".\res\TestStartLock.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4I) Debug"
+
+.\TestStartLock.rc : \
+	".\newres.h"\
+	".\res\TestStartLock.ico"\
+	".\res\TestStartLock.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4) Release"
+
+.\TestStartLock.rc : \
+	".\newres.h"\
+	".\res\TestStartLock.ico"\
+	".\res\TestStartLock.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4) Debug"
+
+.\TestStartLock.rc : \
+	".\newres.h"\
+	".\res\TestStartLock.ico"\
+	".\res\TestStartLock.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4I) Release"
+
+.\TestStartLockDlg.cpp : \
+	".\StdAfx.h"\
+	".\TestStartLock.h"\
+	".\TestStartLockDlg.h"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4I) Debug"
+
+.\TestStartLockDlg.cpp : \
+	".\StdAfx.h"\
+	".\TestStartLock.h"\
+	".\TestStartLockDlg.h"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4) Release"
+
+.\TestStartLockDlg.cpp : \
+	".\StdAfx.h"\
+	".\TestStartLock.h"\
+	".\TestStartLockDlg.h"\
+	
+
+!ELSEIF  "$(CFG)" == "TestStartLock - Win32 (WCE ARMV4) Debug"
+
+.\TestStartLockDlg.cpp : \
+	".\StdAfx.h"\
+	".\TestStartLock.h"\
+	".\TestStartLockDlg.h"\
+	
+
+!ENDIF 
+
